@@ -1,1 +1,35 @@
-%h1 This is the Welcome PlaceHolder
+#banner
+  .banner_content
+    %h1 NotePad +
+    %p The Best Online Notebook
+    %button= link_to "Sign Up", new_user_registration_path
+
+#testimonial
+  .wrapper
+    %p.quote "The #1 NoteBook App Ever"
+    %p.name - God
+
+#callouts
+  .callout_inner
+    .wrapper
+      .callout
+        %h2 Notes
+        %p Test
+
+      .callout
+        %h2 Notes
+        %p Test
+
+      .callout
+        %h2 Notes
+        %p Test
+
+#bottom_cta
+  .wrapper
+    %h2 Try Today!
+    %p You won't regret it!
+    %button= link_to "Click Here", new_user_registration_path
+
+
+%footer
+  %p &copy; NotePad +
