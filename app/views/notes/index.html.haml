@@ -9,4 +9,4 @@
     - else
       %h2 Add a New Note
       %p You have no notes!
-      %button= link_to "New Note", new_note_path
+      %button= link_to "New Note", new_note_path, data: { no_turbolink: true }

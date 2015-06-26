@@ -2,3 +2,9 @@
   = f.input :title
   = f.input :content
   = f.button :submit, class: "button"
+
+%script{:type => "text/javascript",
+        :src  => "http://tinymce.cachefly.net/4.2/tinymce.min.js"}
+
+:javascript
+  tinymce.init({selector:'textarea'});
