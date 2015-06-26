@@ -1,8 +1,8 @@
 #banner
   .banner_content
-    %h1 NotePad +
+    %h1  NotePad +
     %p The Best Online Notebook
-    %button= link_to "Sign Up", new_user_registration_path
+    =link_to "Sign Up", new_user_registration_path, class: "waves-effect waves-light btn"
 
 #testimonial
   .wrapper
@@ -28,8 +28,11 @@
   .wrapper
     %h2 Try Today!
     %p You won't regret it!
-    %button= link_to "Click Here", new_user_registration_path
+    =link_to "Click Here", new_user_registration_path, class: "waves-effect waves-light btn"
 
 
-%footer
-  %p &copy; NotePad +
+%footer{class: "page-footer"}
+  #footer-copyright
+    #container
+      &copy; NotePad +
+

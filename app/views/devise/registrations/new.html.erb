@@ -10,10 +10,11 @@
         <%= f.input :password_confirmation, required: true %>
     </div>
 
-    <div class="form-actions">
+    <div class="form-actions right">
         <%= f.button :submit, "Sign up", class: "button" %>
         </div>
     <% end %>
-
-    <%= render "devise/shared/links" %>
+    <div class="left">
+        <%= render "devise/shared/links" %>
+    </div>
 </div>

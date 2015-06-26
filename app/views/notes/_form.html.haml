@@ -1,7 +1,8 @@
 = simple_form_for @note do |f|
   = f.input :title
   = f.input :content
-  = f.button :submit, class: "button"
+  %br
+    = f.button :submit, class: "button right"
 
 %script{:type => "text/javascript",
         :src  => "http://tinymce.cachefly.net/4.2/tinymce.min.js"}
